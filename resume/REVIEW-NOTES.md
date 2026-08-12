@@ -88,20 +88,21 @@ trusted with production access and an LLM at the same time.
 signals you've worked past the chat window into model configuration. Most candidates for
 infrastructure roles haven't. Don't put that observation on the resume — say it if asked.
 
-## 5a. A judgment call I made — SD-WAN
+## 5a. SD-WAN — resolved, and my earlier call was wrong
 
-You listed SD-WAN under **both** Village Communities and Overhead Door. I put it only at
-Overhead Door, as part of the MPLS conversion.
+I had cut SD-WAN from Village Communities on the grounds that the category barely existed
+before 2017. Naming the products settles it: **Peplink SpeedFusion** at Village, **FortiGate**
+at Overhead Door. SpeedFusion shipped in the early 2010s doing bonded multi-WAN with failover —
+functionally SD-WAN, years before the market agreed on the label. It's back on the resume, and
+the bullet says so in those terms rather than claiming the modern buzzword outright.
 
-Reasoning: SD-WAN barely existed as a product category before 2015, and Village ended in
-Aug 2017. At Overhead Door it's dated naturally and comes with a specific, checkable detail
-(converted *from* MPLS). Claiming the same headline technology at two employers also dilutes
-both — the reader stops believing the earlier one. Village keeps Cisco and the routing
-protocols, which are solid for that era.
+Two different vendors at two different employers is also stronger than the same one twice.
+It reads as someone who solved the same class of problem twice with the tools available at the
+time, which is exactly what it was.
 
-If you really did run an SD-WAN pilot at Village before 2017, say so and I'll put it back —
-that's genuinely early adoption and worth the space. But it needs to be defensible, because
-a network-side interviewer will know the timeline.
+Both bullets now name the product. On a network-facing resume the vendor *is* the credential —
+"SD-WAN" alone is a category anyone can type, while "Peplink SpeedFusion" and "FortiGate" are
+things you either configured or didn't.
 
 ## 5b. Hyper-V is now at both employers, and that's correct
 
@@ -120,6 +121,15 @@ Reads as depth with the platform rather than repetition.
 - [ ] **Target role** (see §1)
 - [ ] **Village Communities promotion month**, if there was one (see §2)
 - [ ] Any certifications — none were listed, and if you hold anything current it belongs on here
+
+## 5c. Two small assumptions to confirm
+
+- **OCI read as Oracle Cloud Infrastructure.** Given the JD Edwards and Oracle history, that's
+  the obvious reading, and it's written out in full on the resume. Correct me if it meant
+  something else.
+- **Certificate automation now spans Windows/AD, F5, and OCI**, written as one bullet rather
+  than three. That's deliberate — cross-platform PKI automation is a more senior claim than
+  three separate scripting tasks, and it's the version worth defending in an interview.
 
 ## 6a. Two themes worth naming in an interview
 

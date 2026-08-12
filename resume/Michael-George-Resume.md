@@ -43,8 +43,9 @@ before it goes anywhere.
   interrupting the business.
 - Built hyper-converged Hyper-V hosts on Storage Spaces Direct and run VMware vSAN alongside
   them, with failover clustering behind the high-availability workloads.
-- **Converted the WAN from MPLS to SD-WAN** on Cisco infrastructure, replacing fixed circuits
-  with a design that routes around failures instead of waiting on a carrier.
+- **Converted the WAN from MPLS to SD-WAN**, running FortiGate over Cisco infrastructure and
+  replacing fixed carrier circuits with a design that routes around failures on its own.
+- Manage the F5 BIG-IP application delivery controller.
 - Own the external storage estate across five platforms — Nimble, NetApp, EMC, Compellent,
   and Isilon.
 - Own AD domain infrastructure end to end — sites and services, replication topology, OU
@@ -53,9 +54,12 @@ before it goes anywhere.
 - Deployed Windows Event Forwarding for centralized event collection and built account
   lockout analytics, which made a recurring support burden diagnosable at the source instead
   of one reset ticket at a time.
-- Automated server, printer, and certificate deployment in PowerShell, standardized
-  day-to-day server management on Windows Admin Center, and replaced a hardware inventory
-  that had been collected by hand.
+- Automated certificate issuance and renewal across three platforms — Windows and Active
+  Directory, F5 BIG-IP, and Oracle Cloud Infrastructure — closing off the expiry outages that
+  come with tracking certificates by hand.
+- Automated server and printer deployment in PowerShell, standardized day-to-day server
+  management on Windows Admin Center, and replaced a hardware inventory that had previously
+  been collected by hand.
 - Administer SQL Server; provide second-line support for the Citrix XenApp farm and VDI.
 - Third-level escalation point for users; after-hours on-call on a six-week rotation.
 - Implement changes under formal change control, and write the documentation the team
@@ -91,6 +95,8 @@ before it goes anywhere.
 - Upgraded a multi-domain environment across Windows 2000 → 2003 → 2012, and restructured
   Exchange users by department and company.
 - Designed and ran multi-site WAN routing on Cisco hardware using OSPF, EIGRP, and RIP.
+- Deployed Peplink SpeedFusion bonded VPN across sites, aggregating circuits for failover and
+  throughput — an SD-WAN approach before the term was in common use.
 - Diagnosed and fixed the data traffic that had been degrading VOIP call quality.
 - Migrated the phone system from Inter-Tel to Avaya.
 - Built Crystal Reports for the business and migrated the club SQL database to a new vendor.
@@ -123,15 +129,16 @@ supported the CPR+ client-server application and built SQL reports against its d
 
 - **Identity & Directory:** Active Directory, Entra/Azure AD, GPO, LDAPS, DFS, DNS, DHCP,
   SMTP, certificate management
-- **Cloud & Productivity:** Azure IaaS, Microsoft 365, Exchange, SharePoint, Teams
+- **Cloud & Productivity:** Azure IaaS, Oracle Cloud Infrastructure (OCI), Microsoft 365,
+  Exchange, SharePoint, Teams
 - **Virtualization & HCI:** VMware vCenter/ESXi/vSAN, Hyper-V, SCVMM, Storage Spaces Direct,
   Nutanix, failover clustering, Windows Admin Center, Citrix XenApp, VDI
 - **Storage:** Nimble, NetApp, EMC, Compellent, Isilon
 - **Monitoring & Operations:** Windows Event Forwarding, account lockout analytics,
   System Center (Operations Manager, Data Protection Manager, Service Manager)
 - **Operating Systems:** Windows Server (2000 through current), Linux, Unix
-- **Networking:** Cisco, SD-WAN, MPLS, OSPF, EIGRP, RIP, VLAN segmentation, spanning tree,
-  VPN, WAN, subnetting
+- **Networking:** Cisco, FortiGate, Peplink SpeedFusion, SD-WAN, MPLS, F5 BIG-IP, OSPF,
+  EIGRP, RIP, VLAN segmentation, spanning tree, VPN, WAN, subnetting
 - **Voice:** Skype for Business, Teams Voice, Sonus SBC, SIP, H.323, Avaya, VOIP QoS
 - **Automation & AI:** PowerShell, VBScript; Claude, ChatGPT, Gemini, Google AI Studio
 - **Business Systems:** JD Edwards EnterpriseOne (CNC), SQL Server, Yardi, PeopleSoft,
