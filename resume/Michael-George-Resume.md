@@ -17,18 +17,14 @@ and documentation, and I read everything it produces before it goes anywhere.
 
 ## How I Work With AI
 
-> ⚠️ **DRAFT — confirm or cut each line before sending.** These are written from what your
-> background makes plausible, not from anything you've told me. Any line you can't defend
-> in an interview should be deleted. See REVIEW-NOTES.md.
-
-- **In regular use:** [ChatGPT / Copilot / Claude — name only what you actually open]
-- **What I use it for:** first-draft PowerShell, then testing it in a lab before it touches
-  production; turning my notes into runbooks and process documentation; working through
-  unfamiliar error output faster than I would alone.
-- **Where I don't:** anything that changes production without me reading every line, and
-  anything involving user or company data going into a tool that isn't sanctioned.
-- **What changed:** [one real before/after — e.g. "documentation that used to get skipped
-  now gets written, because the first draft takes ten minutes instead of an afternoon"]
+- **In regular use:** Claude, ChatGPT, Gemini, and Google AI Studio.
+- **What I use them for:** writing and refining PowerShell, working through error output
+  faster than I would alone, and pressure-testing a design before I start building it.
+- **What it's changed:** automation that kept losing to higher-priority work now gets
+  finished — certificate renewal, Hyper-V and Azure tasks, and a printer and hardware
+  inventory that had been manual for years.
+- **Where I don't:** nothing reaches production until I've read every line and tested it,
+  and company or user data stays out of any tool that isn't sanctioned.
 
 ---
 
@@ -44,6 +40,8 @@ and documentation, and I read everything it produces before it goes anywhere.
   structure, and GPO design.
 - Run internal and external DNS and DHCP, plus all inbound and outbound SMTP mail routing.
 - Second-line support for the Citrix XenApp farm and VDI environment.
+- Automated recurring administrative work in PowerShell — certificate renewal, Hyper-V and
+  Azure tasks, and printer and hardware inventory that had previously been collected by hand.
 - Third-level escalation point for users; after-hours on-call on a six-week rotation.
 - Implement changes under formal change control, and write the documentation the team
   actually opens during an incident — network diagrams, process flows, backup and recovery
@@ -112,7 +110,7 @@ supported the CPR+ client-server application and built SQL reports against its d
 - **Virtualization:** VMware vCenter/ESXi, Hyper-V, Citrix XenApp, VDI, Nimble SAN
 - **Voice:** Skype for Business, Teams Voice, Sonus SBC, SIP, H.323, Avaya, VOIP QoS
 - **Networking:** OSPF, EIGRP, RIP, VLAN segmentation, spanning tree, VPN, WAN, subnetting
-- **Automation:** PowerShell, VBScript
+- **Automation & AI:** PowerShell, VBScript; Claude, ChatGPT, Gemini, Google AI Studio
 - **Business Systems:** JD Edwards EnterpriseOne (CNC), Yardi, PeopleSoft, SQL Server,
   Exchange, SharePoint, Crystal Reports
 - **Management:** budget ownership, vendor contracts, change control, project planning,

@@ -51,39 +51,44 @@ sequential entries — a visible promotion is worth more than a merged block.
 question. A one-sentence answer given without hesitation closes it. Don't let it be the first
 time you've said it out loud.
 
-## 5. The AI section — this is the part I could not write for you
+## 5. The AI section — now written from your answers
 
-Everything else on the resume comes from your record. The AI section doesn't, because you
-haven't told me what you actually use. I drafted plausible lines and marked them, but
-**shipping an unverified claim there is the worst possible outcome** — it's the one section a
-manager screening for AI acceptance will ask about directly.
+Tools, uses, and outcomes all come from what you told me: Claude, ChatGPT, Gemini, and Google
+AI Studio, used for scripting, development, and working through errors, with certificate
+automation, Hyper-V and Azure automation, and printer/hardware inventory as the results.
 
-Send me short answers to these three and I'll rewrite it properly:
+**Two things to check before you send:**
 
-1. Which AI tools do you actually open in a normal week?
-2. What do you use them for? (Scripting? Writing? Working through errors? Something else?)
-3. One thing that got faster or better. Anything. It doesn't have to be impressive.
-
-If your honest answer is *"I use ChatGPT to help write things and I check it before I send
-it"* — that is a good answer. It's most of what these employers are screening for. Candidates
-lose on this question by overclaiming, not by underclaiming.
+1. **The automation bullet is now also in the Overhead Door role**, since certificate,
+   Azure, and printer-inventory work fits that job's scope. If any of it actually happened
+   somewhere else, tell me and I'll move it. It's worth having in the Experience section and
+   not only in the AI section — it's an accomplishment, not just a tooling habit.
+2. **The "Where I don't" line states a practice, not a past event.** It should be something
+   you'd say out loud in an interview without hesitating. If your shop has a specific
+   sanctioned-tool policy, that phrasing gets stronger; if it doesn't, the line still holds
+   as your own discipline.
 
 **Why the section sits above Experience:** the employer is screening for it, so answering it
-directly beats hiding keywords in a skills list. **Why the "Where I don't" line matters most:**
-there are two separate fears behind an AI-acceptance screen — *will they use the tools* and
-*will they use them badly*. Almost every candidate answers the first. The line about what you
-won't put into a tool answers the second, and it's the reason a manager decides you can be
+directly beats hiding keywords in a skills list. **Why the "Where I don't" line does the most
+work:** there are two separate fears behind an AI-acceptance screen — *will they use the tools*
+and *will they use them badly*. Almost every candidate answers the first. The line about what
+you won't put into a tool answers the second, and it's the reason a manager decides you can be
 trusted with production access and an LLM at the same time.
+
+**Worth noting in an interview:** naming Google AI Studio alongside the three chat tools
+signals you've worked past the chat window into model configuration. Most candidates for
+infrastructure roles haven't. Don't put that observation on the resume — say it if asked.
 
 ## 6. Still needed
 
+- [x] ~~AI answers~~ — received, section written (see §5)
 - [ ] **Phone number**
 - [ ] **Columbus State** — degree or program, and year (or tell me to leave the year off)
 - [ ] **The job description body.** Only the benefits block came through — parental leave,
       401(k), health/vision/dental, PTO. The duties and requirements section was blank. That
       section decides bullet order and which of the employer's own words to mirror back.
 - [ ] **Target role** (see §1)
-- [ ] **AI answers** (see §5)
+- [ ] **Village Communities promotion month**, if there was one (see §2)
 - [ ] Any certifications — none were listed, and if you hold anything current it belongs on here
 
 ## 7. Length
