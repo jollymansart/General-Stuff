@@ -110,16 +110,44 @@ title will probe it in the first technical screen. Go in with the answer in §2.
 This matters more than usual because AHEAD says outright that their tooling looks for
 inconsistencies against available information. Your LinkedIn is the available information.
 
-Two specific mismatches to fix on **LinkedIn**, not on the resume:
+### 5a. Village Communities — resolved, and it improved the resume
 
-1. **Village Communities shows two roles both starting Jul 2011** — "System Administrator"
-   (to Aug 2017) and "IT Director" (to Apr 2017). Identical start dates read as an error to a
-   parser and as overlapping employment to a checker. Either set the real promotion date or
-   merge them into one entry, matching how the resume now reads.
-2. **Your LinkedIn About says you're seeking "Director, Senior Management, Architect, Senior
-   Engineer, or Program Management."** You're applying for a Senior Technical Consultant role.
-   A recruiter who opens your profile sees five targets, none of which is this one. Rewrite it
-   toward hybrid infrastructure and Hyper-V, or at minimum add Consultant to the list.
+You were **hired in as Director of IT**, not promoted into it. The split entry was a LinkedIn
+character-limit workaround, not two jobs.
+
+The resume now reads **IT Director, Jul 2011 – Aug 2017**, single entry, with "Hired to run IT
+for the organization and owned it outright." That's a cleaner and stronger claim than the
+promotion story I had assumed — six unbroken years of directorship instead of an ambiguous
+dual title.
+
+**Fix LinkedIn to match:** delete the "System Administrator" entry entirely and keep one
+IT Director role, Jul 2011 – Aug 2017. If the description runs past the character limit, cut
+the bullets rather than splitting the job — a truncated description costs you nothing, and a
+duplicated role costs you a verification flag.
+
+### 5b. The About section — I'd go higher than you're aiming
+
+You're right that the five-title list has to go. But **"Senior IT Administrator" swings too far
+the other way.** It's below your current scope, below the IT Director role you held for six
+years, and below the job you're applying for. A recruiter comparing that headline against a
+$150–190k Senior Technical Consultant posting sees a mismatch in the wrong direction — and
+undershooting reads as a lack of confidence, which is harder to recover from than overshooting.
+
+**Stop shopping for a title and describe the capability instead.** Any of these work:
+
+> Hybrid infrastructure engineer — Hyper-V, VMware, Storage Spaces Direct, and Windows Server
+> at enterprise scale. I run 500+ servers across three hypervisors and led our migration off
+> VMware onto Hyper-V.
+
+> Enterprise virtualization and Windows infrastructure. Hyper-V, VMware, hyper-converged
+> storage, Active Directory, and PowerShell automation across a 500+ server multi-site estate.
+> Former IT Director; comfortable owning a budget and a migration plan at the same time.
+
+Neither names a target title, so neither can mismatch a posting. Both say what you do at a
+level consistent with the roles you want. The second one is better if you're also open to
+leadership roles, because it puts the Director experience in play without asking for it.
+
+Whichever you use, drop "I am an active go-getter." It's the first line a recruiter reads.
 
 Also worth adding to LinkedIn, since none of it is there and all of it is now on your resume:
 Nutanix, Storage Spaces Direct, vSAN, SCVMM, Windows Admin Center, FortiGate, F5, OCI, Windows
@@ -146,7 +174,14 @@ with the role written in a free-text field. That's a worse path than being read 
 screener — your resume is keyword-dense and well matched, which is exactly the input an
 automated first pass rewards.
 
-**Write a cover letter for this one.** Normally optional; here it's the mechanism for addressing
-the Azure Local gap on your own terms rather than letting a screener find it. Three short
-paragraphs: the VMware→Hyper-V migration you led, the S2D and failover clustering you run, and
-one direct sentence about closing the Arc and Azure Local gap. Say the word and I'll draft it.
+**The cover letter is written** — `Cover-Letter-AHEAD.md`. Its job is to address the Azure Local
+gap on your terms rather than letting a screener discover it, so the third paragraph names the
+gap outright and says what you'd do about it. That paragraph is the whole reason the letter
+exists; if you trim anything, don't trim that.
+
+Two notes on it. The opening skips the throat-clearing and leads with the migration, because
+that's the sentence that earns the next paragraph. And it closes on documentation, since your
+posting raises it three separate times — deliverables, knowledge transfer, and success
+criteria — which is unusually heavy weighting and worth answering directly.
+
+Fill in the phone number, and check the tone sounds like you before it goes.

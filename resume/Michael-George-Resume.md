@@ -11,9 +11,9 @@ Windows and Linux estate across Hyper-V, VMware, and Nutanix for a national manu
 where I led the migration off VMware onto Hyper-V, built hyper-converged hosts on Storage
 Spaces Direct behind Windows Failover Clustering, and manage the environment day to day
 through Windows Admin Center and PowerShell. I've also delivered client-facing engagements
-as a consulting voice engineer, and run IT as a director with budget, vendor, and staff
-ownership. The documentation and runbooks I write are the ones teams actually open during
-an incident.
+as a consulting voice engineer, and spent six years as an IT Director owning infrastructure,
+budget, and vendor relationships outright. The documentation and runbooks I write are the ones
+teams actually open during an incident.
 
 ---
 
@@ -63,11 +63,11 @@ an incident.
 - Translated business requirements into technical designs, then handed clients the operational
   documentation and **knowledge transfer** needed to run them.
 
-### IT Director / System Administrator — Village Communities
+### IT Director — Village Communities
 *Westerville, OH · Jul 2011 – Aug 2017*
 
-- Ran IT for the organization — infrastructure, budget, vendor contracts, and services for
-  150–250 employees and roughly 500 network accounts.
+- Hired to run IT for the organization and owned it outright — infrastructure, budget, vendor
+  contracts, and services for 150–250 employees and roughly 500 network accounts.
 - **Consolidated physical servers onto Hyper-V**, and added a Nimble SAN for VM storage with
   site-to-site replication and backup.
 - Led the JD Edwards EnterpriseOne conversion from 8.11 to 9.1 with the CFO, carrying the full
