@@ -121,6 +121,23 @@ Reads as depth with the platform rather than repetition.
 - [ ] **Village Communities promotion month**, if there was one (see §2)
 - [ ] Any certifications — none were listed, and if you hold anything current it belongs on here
 
+## 6a. Two themes worth naming in an interview
+
+Both are now visible in the bullets, but neither is stated outright, and they're the answers
+to questions you'll probably be asked.
+
+**You've built hyper-converged infrastructure on three different stacks** — Storage Spaces
+Direct on Hyper-V, VMware vSAN, and Nutanix — plus five external arrays. Most infrastructure
+candidates have one HCI platform and an opinion about the others. You can compare them from
+having run all three. That's the answer to "what would you recommend for our next refresh,"
+and it's an architect-level answer rather than an administrator-level one.
+
+**Windows Event Forwarding plus account lockout analytics is a security-visibility story,
+not a maintenance story.** Nobody deploys WEF because a ticket asked them to; it gets built
+because someone decided the environment needed central evidence of what happened. Paired with
+LDAPS and certificate automation, that's a coherent thread — you hardened the estate without
+being told to. If the job touches security, compliance, or audit at all, lead with it.
+
 ## 7. Length — now the most urgent problem
 
 This is well past two pages and getting worse with each round. That's fine for now: the point

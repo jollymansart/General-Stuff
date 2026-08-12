@@ -10,9 +10,10 @@ Seventeen years in enterprise infrastructure, most of it as the person accountab
 something breaks at 2 a.m. I've worked both sides of the job — IT Director with budget,
 vendor, and staff ownership, and hands-on engineer through voice, virtualization, and WAN
 migrations. Today I run identity, virtualization, storage, and network for a national
-manufacturer: 500+ Windows and Linux servers across VMware, Hyper-V, and Nutanix, five
-storage platforms, and a WAN I converted from MPLS to SD-WAN. I use AI tooling daily for
-scripting and design work, and I read everything it produces before it goes anywhere.
+manufacturer: 500+ Windows and Linux servers across VMware, Hyper-V, and Nutanix, three
+hyper-converged platforms, five storage arrays, and a WAN I converted from MPLS to SD-WAN.
+I use AI tooling daily for scripting and design work, and I read everything it produces
+before it goes anywhere.
 
 ---
 
@@ -34,22 +35,27 @@ scripting and design work, and I read everything it produces before it goes anyw
 ### System Network Administrator — Overhead Door Corporation
 *Columbus, OH · Mar 2019 – Present*
 
-- Primary administrator for Active Directory, Microsoft 365, Azure, and the collaboration
-  stack across the enterprise.
-- Manage **500+ virtual servers** across multiple physical sites, running Windows and Linux
-  guests on VMware vCenter, Hyper-V with SCVMM, and Nutanix.
+- Primary administrator for Active Directory, Microsoft 365, and Azure, where I also build
+  and run virtual machines alongside the on-premises estate.
+- Manage **500+ Windows and Linux virtual servers** across multiple physical sites on VMware
+  vCenter, Hyper-V with SCVMM, and Nutanix.
 - **Led the migration from VMware to Hyper-V**, moving production workloads without
   interrupting the business.
+- Built hyper-converged Hyper-V hosts on Storage Spaces Direct and run VMware vSAN alongside
+  them, with failover clustering behind the high-availability workloads.
 - **Converted the WAN from MPLS to SD-WAN** on Cisco infrastructure, replacing fixed circuits
   with a design that routes around failures instead of waiting on a carrier.
-- Own the storage estate across five platforms — Nimble, NetApp, EMC, Compellent, and Isilon.
+- Own the external storage estate across five platforms — Nimble, NetApp, EMC, Compellent,
+  and Isilon.
 - Own AD domain infrastructure end to end — sites and services, replication topology, OU
   structure, GPO design, LDAPS, and DFS.
 - Run internal and external DNS and DHCP, plus all inbound and outbound SMTP mail routing.
-- Built account lockout analytics, turning a recurring support burden into something
-  diagnosable at the source rather than reset ticket by reset ticket.
-- Automated server, printer, and certificate deployment in PowerShell, along with a hardware
-  inventory that had previously been collected by hand.
+- Deployed Windows Event Forwarding for centralized event collection and built account
+  lockout analytics, which made a recurring support burden diagnosable at the source instead
+  of one reset ticket at a time.
+- Automated server, printer, and certificate deployment in PowerShell, standardized
+  day-to-day server management on Windows Admin Center, and replaced a hardware inventory
+  that had been collected by hand.
 - Administer SQL Server; provide second-line support for the Citrix XenApp farm and VDI.
 - Third-level escalation point for users; after-hours on-call on a six-week rotation.
 - Implement changes under formal change control, and write the documentation the team
@@ -115,10 +121,14 @@ supported the CPR+ client-server application and built SQL reports against its d
 
 ## Technical Skills
 
-- **Identity & Directory:** Active Directory, Entra/Azure AD, GPO, LDAPS, DFS, DNS, DHCP, SMTP
-- **Cloud & Productivity:** Azure, Microsoft 365, Exchange, SharePoint, Teams
-- **Virtualization:** VMware vCenter/ESXi, Hyper-V, SCVMM, Nutanix, Citrix XenApp, VDI
+- **Identity & Directory:** Active Directory, Entra/Azure AD, GPO, LDAPS, DFS, DNS, DHCP,
+  SMTP, certificate management
+- **Cloud & Productivity:** Azure IaaS, Microsoft 365, Exchange, SharePoint, Teams
+- **Virtualization & HCI:** VMware vCenter/ESXi/vSAN, Hyper-V, SCVMM, Storage Spaces Direct,
+  Nutanix, failover clustering, Windows Admin Center, Citrix XenApp, VDI
 - **Storage:** Nimble, NetApp, EMC, Compellent, Isilon
+- **Monitoring & Operations:** Windows Event Forwarding, account lockout analytics,
+  System Center (Operations Manager, Data Protection Manager, Service Manager)
 - **Operating Systems:** Windows Server (2000 through current), Linux, Unix
 - **Networking:** Cisco, SD-WAN, MPLS, OSPF, EIGRP, RIP, VLAN segmentation, spanning tree,
   VPN, WAN, subnetting
