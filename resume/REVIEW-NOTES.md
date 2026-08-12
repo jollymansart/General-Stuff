@@ -18,6 +18,13 @@ reader meets it before they meet the current title.
 Manager / Director. If you're actually going for Senior Systems Engineer or Architect, tell me
 and I'll re-cut it — different bullets go to the top and the Summary changes.
 
+**Update after the latest round:** the added Overhead Door scope changes this materially. A
+role covering identity, five storage platforms, three hypervisors, an MPLS-to-SD-WAN
+conversion, SQL, and Linux is an Infrastructure Architect or Manager job with an
+Administrator title attached. That's now the argument the resume makes, and it's a much
+stronger one than it was two rounds ago. **Your title is the weakest fact about your current
+job — the Summary is written so the reader meets the scope first.**
+
 ## 2. Date conflict at Village Communities — needs your answer
 
 LinkedIn lists two roles with the **same start month**:
@@ -81,6 +88,27 @@ trusted with production access and an LLM at the same time.
 signals you've worked past the chat window into model configuration. Most candidates for
 infrastructure roles haven't. Don't put that observation on the resume — say it if asked.
 
+## 5a. A judgment call I made — SD-WAN
+
+You listed SD-WAN under **both** Village Communities and Overhead Door. I put it only at
+Overhead Door, as part of the MPLS conversion.
+
+Reasoning: SD-WAN barely existed as a product category before 2015, and Village ended in
+Aug 2017. At Overhead Door it's dated naturally and comes with a specific, checkable detail
+(converted *from* MPLS). Claiming the same headline technology at two employers also dilutes
+both — the reader stops believing the earlier one. Village keeps Cisco and the routing
+protocols, which are solid for that era.
+
+If you really did run an SD-WAN pilot at Village before 2017, say so and I'll put it back —
+that's genuinely early adoption and worth the space. But it needs to be defensible, because
+a network-side interviewer will know the timeline.
+
+## 5b. Hyper-V is now at both employers, and that's correct
+
+Village (2011–2017, the original consolidation off physical hardware) and Overhead Door
+(the VMware-to-Hyper-V migration). Two different projects a decade apart, not a duplicate.
+Reads as depth with the platform rather than repetition.
+
 ## 6. Still needed
 
 - [x] ~~AI answers~~ — received, section written (see §5)
@@ -93,9 +121,23 @@ infrastructure roles haven't. Don't put that observation on the resume — say i
 - [ ] **Village Communities promotion month**, if there was one (see §2)
 - [ ] Any certifications — none were listed, and if you hold anything current it belongs on here
 
-## 7. Length
+## 7. Length — now the most urgent problem
 
-As written this runs long for a two-page resume. Once you give me the target role I'd cut the
-Village Communities bullets from 11 down to about 6 and trim ADiO to 3. Right now everything
-truthful is on the page so you can see the full inventory and choose. **Don't send it at this
-length** — pick the target first.
+This is well past two pages and getting worse with each round. That's fine for now: the point
+of the current draft is to hold the complete inventory so you can see everything truthful in
+one place and choose from it. It is **not** sendable as-is.
+
+The balance has also inverted in a useful way. Overhead Door went from 8 bullets to 14 and is
+now the strongest entry on the page, which is how it should be — the most recent role deserves
+the most space. Village Communities is still carrying 11 bullets from a job that ended in 2017.
+
+When you give me the target role, the cut is roughly:
+
+- **Overhead Door** — keep 8–9, leading with the migration and conversion work
+- **Village Communities** — down to 5, keeping the Director-scope items (budget, revenue, the
+  JD Edwards conversion) over the task-level ones
+- **Smart Shared Services** — down to 3
+- **ADiO** — down to 3
+- **Peer Assist / Definitive Homecare** — already compressed, likely drop Definitive entirely
+
+That lands at two pages with the strongest material on page one.

@@ -6,12 +6,13 @@ Columbus, Ohio Metro · mdg.mike.george@gmail.com · [PHONE] · linkedin.com/in/
 
 ## Summary
 
-Seventeen years in Windows infrastructure, most of it as the person accountable when
+Seventeen years in enterprise infrastructure, most of it as the person accountable when
 something breaks at 2 a.m. I've worked both sides of the job — IT Director with budget,
-vendor, and staff ownership, and hands-on engineer on voice migrations and virtualization
-builds. Today I'm the primary administrator for Active Directory, Microsoft 365, and a
-500-server VMware estate at a national manufacturer. I use AI tooling daily for scripting
-and documentation, and I read everything it produces before it goes anywhere.
+vendor, and staff ownership, and hands-on engineer through voice, virtualization, and WAN
+migrations. Today I run identity, virtualization, storage, and network for a national
+manufacturer: 500+ Windows and Linux servers across VMware, Hyper-V, and Nutanix, five
+storage platforms, and a WAN I converted from MPLS to SD-WAN. I use AI tooling daily for
+scripting and design work, and I read everything it produces before it goes anywhere.
 
 ---
 
@@ -33,15 +34,23 @@ and documentation, and I read everything it produces before it goes anywhere.
 ### System Network Administrator — Overhead Door Corporation
 *Columbus, OH · Mar 2019 – Present*
 
-- Primary administrator for Active Directory, Microsoft 365, Azure portals, and the
-  collaboration stack across the enterprise.
-- Manage a VMware vCenter estate of **500+ virtual servers** across multiple physical sites.
+- Primary administrator for Active Directory, Microsoft 365, Azure, and the collaboration
+  stack across the enterprise.
+- Manage **500+ virtual servers** across multiple physical sites, running Windows and Linux
+  guests on VMware vCenter, Hyper-V with SCVMM, and Nutanix.
+- **Led the migration from VMware to Hyper-V**, moving production workloads without
+  interrupting the business.
+- **Converted the WAN from MPLS to SD-WAN** on Cisco infrastructure, replacing fixed circuits
+  with a design that routes around failures instead of waiting on a carrier.
+- Own the storage estate across five platforms — Nimble, NetApp, EMC, Compellent, and Isilon.
 - Own AD domain infrastructure end to end — sites and services, replication topology, OU
-  structure, and GPO design.
+  structure, GPO design, LDAPS, and DFS.
 - Run internal and external DNS and DHCP, plus all inbound and outbound SMTP mail routing.
-- Second-line support for the Citrix XenApp farm and VDI environment.
-- Automated recurring administrative work in PowerShell — certificate renewal, Azure tasks,
-  and printer and hardware inventory that had previously been collected by hand.
+- Built account lockout analytics, turning a recurring support burden into something
+  diagnosable at the source rather than reset ticket by reset ticket.
+- Automated server, printer, and certificate deployment in PowerShell, along with a hardware
+  inventory that had previously been collected by hand.
+- Administer SQL Server; provide second-line support for the Citrix XenApp farm and VDI.
 - Third-level escalation point for users; after-hours on-call on a six-week rotation.
 - Implement changes under formal change control, and write the documentation the team
   actually opens during an incident — network diagrams, process flows, backup and recovery
@@ -75,8 +84,7 @@ and documentation, and I read everything it produces before it goes anywhere.
   management traffic on separate paths from end users.
 - Upgraded a multi-domain environment across Windows 2000 → 2003 → 2012, and restructured
   Exchange users by department and company.
-- Designed and ran multi-site WAN routing on Cisco hardware using OSPF, EIGRP, and RIP, and
-  moved the WAN onto SD-WAN.
+- Designed and ran multi-site WAN routing on Cisco hardware using OSPF, EIGRP, and RIP.
 - Diagnosed and fixed the data traffic that had been degrading VOIP call quality.
 - Migrated the phone system from Inter-Tel to Avaya.
 - Built Crystal Reports for the business and migrated the club SQL database to a new vendor.
@@ -107,14 +115,17 @@ supported the CPR+ client-server application and built SQL reports against its d
 
 ## Technical Skills
 
-- **Directory & Cloud:** Active Directory, Microsoft 365, Azure, GPO, DNS, DHCP, SMTP
-- **Virtualization:** VMware vCenter/ESXi, Hyper-V, Citrix XenApp, VDI, Nimble SAN
+- **Identity & Directory:** Active Directory, Entra/Azure AD, GPO, LDAPS, DFS, DNS, DHCP, SMTP
+- **Cloud & Productivity:** Azure, Microsoft 365, Exchange, SharePoint, Teams
+- **Virtualization:** VMware vCenter/ESXi, Hyper-V, SCVMM, Nutanix, Citrix XenApp, VDI
+- **Storage:** Nimble, NetApp, EMC, Compellent, Isilon
+- **Operating Systems:** Windows Server (2000 through current), Linux, Unix
+- **Networking:** Cisco, SD-WAN, MPLS, OSPF, EIGRP, RIP, VLAN segmentation, spanning tree,
+  VPN, WAN, subnetting
 - **Voice:** Skype for Business, Teams Voice, Sonus SBC, SIP, H.323, Avaya, VOIP QoS
-- **Networking:** Cisco, SD-WAN, OSPF, EIGRP, RIP, VLAN segmentation, spanning tree, VPN,
-  WAN, subnetting
 - **Automation & AI:** PowerShell, VBScript; Claude, ChatGPT, Gemini, Google AI Studio
-- **Business Systems:** JD Edwards EnterpriseOne (CNC), Yardi, PeopleSoft, SQL Server,
-  Exchange, SharePoint, Crystal Reports
+- **Business Systems:** JD Edwards EnterpriseOne (CNC), SQL Server, Yardi, PeopleSoft,
+  Crystal Reports
 - **Management:** budget ownership, vendor contracts, change control, project planning,
   technical documentation
 
