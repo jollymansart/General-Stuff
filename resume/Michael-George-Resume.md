@@ -21,8 +21,8 @@ and documentation, and I read everything it produces before it goes anywhere.
 - **What I use them for:** writing and refining PowerShell, working through error output
   faster than I would alone, and pressure-testing a design before I start building it.
 - **What it's changed:** automation that kept losing to higher-priority work now gets
-  finished — certificate renewal, Hyper-V and Azure tasks, and a printer and hardware
-  inventory that had been manual for years.
+  finished — certificate renewal, Azure tasks, and a printer and hardware inventory that
+  had been collected by hand for years.
 - **Where I don't:** nothing reaches production until I've read every line and tested it,
   and company or user data stays out of any tool that isn't sanctioned.
 
@@ -40,8 +40,8 @@ and documentation, and I read everything it produces before it goes anywhere.
   structure, and GPO design.
 - Run internal and external DNS and DHCP, plus all inbound and outbound SMTP mail routing.
 - Second-line support for the Citrix XenApp farm and VDI environment.
-- Automated recurring administrative work in PowerShell — certificate renewal, Hyper-V and
-  Azure tasks, and printer and hardware inventory that had previously been collected by hand.
+- Automated recurring administrative work in PowerShell — certificate renewal, Azure tasks,
+  and printer and hardware inventory that had previously been collected by hand.
 - Third-level escalation point for users; after-hours on-call on a six-week rotation.
 - Implement changes under formal change control, and write the documentation the team
   actually opens during an incident — network diagrams, process flows, backup and recovery
@@ -75,7 +75,8 @@ and documentation, and I read everything it produces before it goes anywhere.
   management traffic on separate paths from end users.
 - Upgraded a multi-domain environment across Windows 2000 → 2003 → 2012, and restructured
   Exchange users by department and company.
-- Designed multi-site WAN routing using OSPF, EIGRP, and RIP.
+- Designed and ran multi-site WAN routing on Cisco hardware using OSPF, EIGRP, and RIP, and
+  moved the WAN onto SD-WAN.
 - Diagnosed and fixed the data traffic that had been degrading VOIP call quality.
 - Migrated the phone system from Inter-Tel to Avaya.
 - Built Crystal Reports for the business and migrated the club SQL database to a new vendor.
@@ -109,7 +110,8 @@ supported the CPR+ client-server application and built SQL reports against its d
 - **Directory & Cloud:** Active Directory, Microsoft 365, Azure, GPO, DNS, DHCP, SMTP
 - **Virtualization:** VMware vCenter/ESXi, Hyper-V, Citrix XenApp, VDI, Nimble SAN
 - **Voice:** Skype for Business, Teams Voice, Sonus SBC, SIP, H.323, Avaya, VOIP QoS
-- **Networking:** OSPF, EIGRP, RIP, VLAN segmentation, spanning tree, VPN, WAN, subnetting
+- **Networking:** Cisco, SD-WAN, OSPF, EIGRP, RIP, VLAN segmentation, spanning tree, VPN,
+  WAN, subnetting
 - **Automation & AI:** PowerShell, VBScript; Claude, ChatGPT, Gemini, Google AI Studio
 - **Business Systems:** JD Edwards EnterpriseOne (CNC), Yardi, PeopleSoft, SQL Server,
   Exchange, SharePoint, Crystal Reports

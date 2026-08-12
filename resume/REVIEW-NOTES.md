@@ -57,16 +57,18 @@ Tools, uses, and outcomes all come from what you told me: Claude, ChatGPT, Gemin
 AI Studio, used for scripting, development, and working through errors, with certificate
 automation, Hyper-V and Azure automation, and printer/hardware inventory as the results.
 
-**Two things to check before you send:**
+**Timeline correction already applied:** Hyper-V was originally in the AI results list, but
+you've since placed that work at Village Communities (2011–2017). The AI tools didn't exist
+then, so the claim couldn't have held. Hyper-V is now attributed to Village and removed from
+both the AI section and the Overhead Door bullet. **Check the rest of the resume for the same
+mistake** any time you add an AI line — the tools are recent, so nothing before roughly 2023
+can be credited to them. This is exactly the kind of inconsistency an interviewer catches by
+accident, just by reading the dates.
 
-1. **The automation bullet is now also in the Overhead Door role**, since certificate,
-   Azure, and printer-inventory work fits that job's scope. If any of it actually happened
-   somewhere else, tell me and I'll move it. It's worth having in the Experience section and
-   not only in the AI section — it's an accomplishment, not just a tooling habit.
-2. **The "Where I don't" line states a practice, not a past event.** It should be something
-   you'd say out loud in an interview without hesitating. If your shop has a specific
-   sanctioned-tool policy, that phrasing gets stronger; if it doesn't, the line still holds
-   as your own discipline.
+**One thing left to check:** the **"Where I don't" line states a practice, not a past event** —
+it's the only sentence on the resume like that. It should be something you'd say out loud
+without hesitating. If your shop has a written sanctioned-tool policy, that phrasing gets
+stronger; if it doesn't, the line still holds as your own discipline.
 
 **Why the section sits above Experience:** the employer is screening for it, so answering it
 directly beats hiding keywords in a skills list. **Why the "Where I don't" line does the most
