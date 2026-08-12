@@ -243,3 +243,39 @@ their bench get qualified — you'd be arriving pointed in the direction they we
 you anyway.
 
 Book the exam and tell me the date; I'll add the line to both documents.
+
+---
+
+## 9. Check the email address before you send
+
+The resume and cover letter both carry **mdgmikegeorgej@gmail.com**, as supplied.
+
+Note the trailing **"j"**. That makes it a different mailbox from the address on this account,
+`mdg.mike.george@gmail.com` — Gmail ignores dots, so those two differ by the final letter alone,
+not by punctuation.
+
+Both may well be yours. But confirm it, because a wrong email is the one error on a resume that
+fails silently: nothing bounces back to you, the employer's reply goes nowhere, and you never
+learn why you didn't hear anything. Send yourself a test message at the address as written.
+
+## 10. Output formats
+
+Four files, all carrying identical content:
+
+| File | Use |
+|---|---|
+| `Michael-George-Resume.docx` | **Submit this one.** Two pages. |
+| `Michael-George-Resume.pdf` | Email attachments, printing, anything read by a person |
+| `Michael-George-Cover-Letter-AHEAD.docx` | One page |
+| `Michael-George-Cover-Letter-AHEAD.pdf` | Same |
+
+**Prefer .docx for the application itself.** AHEAD states that automated tooling reads
+applications, and resume parsers extract text from Word more reliably than from PDF — PDF text
+extraction can reorder or drop content depending on how the file was produced. The .docx here is
+built for that: plain paragraph styles, real bullet lists, no tables, no text boxes, no headers
+or footers, standard fonts. Everything a parser mishandles is absent by design.
+
+Use the PDF wherever a human opens it, since the formatting is guaranteed to hold.
+
+The `source/` folder holds the HTML and the build script. Edit the Markdown, and if you want the
+document formats regenerated, say so and I'll rebuild all four.

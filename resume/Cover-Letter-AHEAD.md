@@ -1,6 +1,6 @@
 # Michael George
 
-Columbus, Ohio · mdg.mike.george@gmail.com · [PHONE] · linkedin.com/in/michael-george-02866411
+Columbus, Ohio · mdgmikegeorgej@gmail.com · 330-313-5604 · linkedin.com/in/michael-george-02866411
 
 ---
 
