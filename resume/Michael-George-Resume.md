@@ -125,4 +125,5 @@ supported the CPR+ client-server application and built SQL reports against its d
 
 ## Education
 
-Columbus State Community College — [PROGRAM / DEGREE, YEAR]
+**Columbus State Community College** — Computer Science coursework: C, COBOL, Assembler, JCL,
+Visual Basic, AS/400 CL

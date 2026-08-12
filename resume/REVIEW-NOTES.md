@@ -158,10 +158,10 @@ asymmetry is itself a signal worth removing.
 
 ## 6. Still needed from you
 
-- [ ] **Phone number**
-- [ ] **Columbus State** — degree or program, and year (or say the word and I'll drop the year)
-- [ ] Any **certifications**, current or in progress (see §2.6 — this is the highest-value gap
-      you can close quickly)
+- [x] ~~Columbus State~~ — resolved, see §8
+- [ ] **Phone number** — the only remaining blocker on both documents
+- [ ] Any **certifications**, current or in progress (see §2.6 and §8 — now the highest-value
+      thing you can do for this application)
 - [ ] Any exposure to **Azure Arc, Azure Migrate, Azure Monitor, Azure Policy, or Defender for
       Cloud** — even lab or pilot work is worth a line
 
@@ -185,3 +185,61 @@ posting raises it three separate times — deliverables, knowledge transfer, and
 criteria — which is unusually heavy weighting and worth answering directly.
 
 Fill in the phone number, and check the tone sounds like you before it goes.
+
+---
+
+## 8. No degree — and for this posting, it genuinely does not matter
+
+**Read the Required Qualifications again.** They open with "Five or more years of experience
+designing, implementing, or supporting enterprise compute and virtualization environments" and
+never mention education. Not a degree, not "or equivalent experience," not a preference under
+Preferred Qualifications either. AHEAD wrote eleven required bullets and none of them is a
+diploma. You have seventeen years against a five-year bar.
+
+This is normal in infrastructure. Nobody staffing an Azure Local migration asks where the
+consultant went to school; they ask whether the cluster came up.
+
+### How it's written
+
+> **Columbus State Community College** — Computer Science coursework: C, COBOL, Assembler, JCL,
+> Visual Basic, AS/400 CL
+
+That is honest and complete. "Coursework" claims attendance and nothing more — it does not imply
+a degree, and no reader takes it as one.
+
+Three deliberate omissions:
+
+- **No dates.** Years on an unfinished program invite arithmetic and answer nothing useful.
+- **No "1.5 years," no "did not graduate."** You are not required to volunteer incompleteness,
+  and doing so would be the only line on two pages arguing against you. Omitting it is not a
+  misrepresentation; announcing it is self-sabotage.
+- **No apology or explanation.** The section is two lines at the bottom of page two and should
+  read as a fact, not a confession.
+
+Listing the coursework is what turns a thin line into a substantive one — it shows CS
+fundamentals rather than a bare institution name. The languages themselves (COBOL, JCL,
+Assembler, AS/400 CL) are irrelevant to Hyper-V work, and that's fine; they're doing structural
+work here, not keyword work.
+
+**Never soften this in an interview.** If asked, "I did computer science coursework at Columbus
+State and went to work instead of finishing" is a complete answer. Say it in a normal tone and
+move to the next question. Seventeen years of production infrastructure is the credential, and
+you are talking to people who know that.
+
+### What this does change: certifications
+
+With no degree, **certifications become the only formal credential on the page — and you have
+none.** They're listed under Preferred Qualifications, so this is the single highest-value gap
+you can close, and it's now doing double duty.
+
+**AZ-800 and AZ-801** (Windows Server Hybrid Administrator) map almost exactly onto the Azure
+Local gap in §2 — hybrid AD, Azure Arc, failover clustering, Windows Admin Center. Passing them
+closes the technical gap and the credential gap with one effort.
+
+Even "AZ-800 in progress, exam scheduled [month]" on the resume changes the read. It converts
+the gap from something a screener finds into something you're visibly acting on. AHEAD also
+sponsors certifications outright, which means they've already decided this is how people on
+their bench get qualified — you'd be arriving pointed in the direction they were going to send
+you anyway.
+
+Book the exam and tell me the date; I'll add the line to both documents.
